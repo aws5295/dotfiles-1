@@ -47,14 +47,6 @@ md() {
 }
 
 # }}}
-# n: easy run project local npm executables {{{
-
-# usage sample: n ng version
-n () {
-  $(npm bin)/$@
-}
-
-# }}}
 # =: front for the `bc` utility {{{
 
 # usage: = '1+1'

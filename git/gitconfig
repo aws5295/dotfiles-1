@@ -1,3 +1,7 @@
+[user]
+  name = Adam Shaw
+  email = aws5295@gmail.com
+
 [push]
   default = simple
 
@@ -52,3 +56,8 @@
   extendRegexp = true
 [credential]
 	helper = store
+[rebase]
+  autostash = true
+
+[alias]
+  summon = "!summon () { b=$1; git fetch origin +refs/heads/$b:refs/remotes/origin/$b $b:$b; }; summon"

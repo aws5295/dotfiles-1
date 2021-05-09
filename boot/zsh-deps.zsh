@@ -12,5 +12,8 @@ ningrab zsh-users/zsh-completions
 ningrab ninrod/pass-zsh-completion
 ningrab ninrod/gradle-zsh-completion
 
+# git
+ningrab wfxr/forgit
+
 # appearance
 ningrab zdharma/fast-syntax-highlighting

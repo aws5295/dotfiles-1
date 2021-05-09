@@ -87,7 +87,7 @@ ningrab() {
   local ref=$2
   echo "" && echo "-------------------"
   if [[ -d $name ]]; then
-    echo -e "[${Green}${name}${Rst}] already cloned from ${Blue}${url}${Rst}"
+    echo -e "[${Green}${name}${Rst}] already cloned from ${Blue}${url}${Rst} at '${Cyan}${PWD}/${name}${Rst}'"
   else
     echo -e "[${Red}${name}${Rst}] not cloned. cloning now from ${Blue}${url}${Rst}"
     if [[ -n ${2+x} ]]; then
