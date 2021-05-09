@@ -34,9 +34,11 @@ omap ac a{
 xmap ic i{
 xmap ac a{
 
-nmap s <Leader>
-omap s <Leader>
-xmap s <Leader>
+nmap , <Leader>
+omap , <Leader>
+xmap , <Leader>
+
+imap jk <Esc>
 
 " emacs keybind standardization
 nnoremap mk :bd<cr>
