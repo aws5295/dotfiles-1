@@ -15,6 +15,7 @@ source ~/.zsh.d/alias-vim.zsh
 
 source ~/.zsh.d/prompt.zsh
 source ~/.zsh.d/ninplug.zsh
+source ~/.zsh.d/autosuggestions.zsh
 
 # load step
 load_plugins
