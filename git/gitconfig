@@ -60,4 +60,7 @@
   autostash = true
 
 [alias]
+  recent = "!git checkout $(git for-each-ref --count=100 --sort=-committerdate refs/heads/ --format='%(refname:short)' | fzf)"
   summon = "!summon () { b=$1; git fetch origin +refs/heads/$b:refs/remotes/origin/$b $b:$b; }; summon"
+  gone   = "!git fetch --prune --all"
+
