@@ -31,6 +31,9 @@ source ~/.zsh.d/fzf.zsh
 source ~/.zsh.d/pj.zsh
 source ~/.zsh.d/dir_tracker.zsh
 
+# work specific
+source ~/.zsh.d/samsara.zsh
+
 # user last step
 source ~/.zsh.d/call_user_last_hook.zsh
 eval "$(direnv hook zsh)"
