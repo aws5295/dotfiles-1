@@ -31,6 +31,9 @@ source ~/.zsh.d/fzf.zsh
 source ~/.zsh.d/pj.zsh
 source ~/.zsh.d/dir_tracker.zsh
 
+# correcting faulty commands
+eval "$(thefuck --alias)"
+
 # work specific
 source ~/.zsh.d/samsara.zsh
 
