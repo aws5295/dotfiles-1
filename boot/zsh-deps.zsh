@@ -12,6 +12,9 @@ ningrab zsh-users/zsh-completions
 ningrab ninrod/pass-zsh-completion
 ningrab ninrod/gradle-zsh-completion
 
+# autosuggestions
+ningrab zsh-users/zsh-autosuggestions
+
 # git
 ningrab wfxr/forgit
 
