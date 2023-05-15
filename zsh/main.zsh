@@ -36,7 +36,7 @@ source ~/.zsh.d/dir_tracker.zsh
 eval "$(thefuck --alias)"
 
 # work specific
-source ~/.zsh.d/samsara.zsh
+source ~/.zsh.d/work.zsh
 
 # user last step
 source ~/.zsh.d/call_user_last_hook.zsh
