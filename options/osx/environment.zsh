@@ -2,14 +2,12 @@
 CUSTOM_SCRIPTS_BASE=~/.dotfiles/scripts
 
 # dotfiles scripts
-EMACS_SCRIPTS=$CUSTOM_SCRIPTS_BASE/emacs
 VIM_SCRIPTS=$CUSTOM_SCRIPTS_BASE/vim
 ZSH_SCRIPTS=$CUSTOM_SCRIPTS_BASE/zsh
 GIT_SCRIPTS=$CUSTOM_SCRIPTS_BASE/git
 OSX_SCRIPTS=~/.options/osx/scripts
-CUSTOM_SCRIPTS=$EMACS_SCRIPTS:$ZSH_SCRIPTS:$VIM_SCRIPTS:$OSX_SCRIPTS:$GIT_SCRIPTS
+CUSTOM_SCRIPTS=$ZSH_SCRIPTS:$VIM_SCRIPTS:$OSX_SCRIPTS:$GIT_SCRIPTS
 
-# Pega a lista de diretórios GNU com esse comando:
 # find /usr/local/opt -type d -follow -name gnubin -print
 GNUCORE=/usr/local/opt/coreutils/libexec/gnubin
 GNUINDENT=/usr/local/opt/gnu-indent/libexec/gnubin

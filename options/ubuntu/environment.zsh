@@ -2,7 +2,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export BSSH_SERVERS_FILE="$HOME/code/sources/secrets/bssh.servers"
 
 # setting up PATH
-CUSTOM_SCRIPTS=~/.dotfiles/scripts/emacs:~/.dotfiles/scripts/vim:~/.dotfiles/scripts/zsh
+CUSTOM_SCRIPTS=~/.dotfiles/scripts/vim:~/.dotfiles/scripts/zsh
 LINUX_SCRIPTS=~/.options/ubuntu/scripts
 CARGO_BIN=~/.cargo/bin
 GO_BIN=~/go/bin

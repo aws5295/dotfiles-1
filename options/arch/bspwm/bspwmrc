@@ -30,7 +30,6 @@ bspc config pointer_action1 move
 bspc config pointer_action2 resize_corner
 
 # rules
-bspc rule -a Emacs state=tiled
 bspc rule -a Gimp state=floating follow=on
 bspc rule -a Pqiv state=tiled
 bspc rule -a Tilda state=floating
@@ -50,11 +49,6 @@ fi
 
 # parcellite clipboard manager
 parcellite &
-
-# start emacs daemon
-kill_proc emacs
-~/.dotfiles/scripts/emacs/up-emacs-daemon.sh &
-
 
 # network manager
 eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg.pkcs11,secrets,ssh)

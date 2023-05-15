@@ -40,9 +40,6 @@ xmap , <Leader>
 
 imap jk <Esc>
 
-" emacs keybind standardization
-nnoremap mk :bd<cr>
-
 " }}}
 " window operations {{{
 
