@@ -10,7 +10,6 @@ Before=suspend.target
 User=ninrod
 Type=forking
 Environment=DISPLAY=:0
-ExecStart=/home/ninrod/.options/arch/systemd/lock_if_unlocked.sh
 
 [Install]
 WantedBy=suspend.target

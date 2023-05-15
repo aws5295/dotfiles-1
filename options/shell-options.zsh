@@ -16,20 +16,8 @@ load_secrets() {
 
 # zsh parameter substitution: http://zsh.sourceforge.net/Intro/intro_12.html
 unamestr=$(uname -a)
-if [[ $unamestr:l == *"linux"* ]] && [[ $unamestr:l == *"arch"* ]]; then
-  if [[ -n ${1+x} ]] && [[ "$1" == "setup" ]]; then
-    source ~/.options/arch/setup.zsh
-    load_secrets
-  else
-    source ~/.options/arch/arch.zsh
-  fi
-elif [[ $unamestr:l == *"darwin"*  ]]; then
+if [[ $unamestr:l == *"darwin"*  ]]; then
   source ~/.options/osx/osx.zsh $1
-  if [[ -n ${1+x} ]] && [[ "$1" == "setup" ]]; then
-    load_secrets
-  fi
-elif [[ $unamestr:l == *"fc28"*  ]]; then
-  source ~/.options/fedora/fedora.zsh $1
   if [[ -n ${1+x} ]] && [[ "$1" == "setup" ]]; then
     load_secrets
   fi

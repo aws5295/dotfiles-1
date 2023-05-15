@@ -1,6 +1,0 @@
-* Arch setup ideas
-
-- write a custom script to show the 2 batteries in polybar through acpi
-
-
-

@@ -3,6 +3,3 @@
 
 # symlinkage
 source ~/.options/ubuntu/symlinks.zsh
-
-# arch specific java nuisance
-# wmname LG3D
